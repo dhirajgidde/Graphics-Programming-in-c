@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1514225386 source:g:\graphics programming in c\jj\main.cpp
+	<graphics.h>
+	<stdlib.h>
+	<stdio.h>
+	<conio.h>
+

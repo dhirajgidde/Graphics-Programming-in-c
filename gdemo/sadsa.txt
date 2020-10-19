@@ -1,0 +1,26 @@
+#include <graphics.h>
+#include <dos.h>
+#include <conio.h>
+
+main()
+{
+   int i, j = 0, gd = DETECT, gm;
+
+   initgraph(&gd,&gm,"C:\\TC\\BGI");
+
+   for(i=0;i<=800;i=i+10)
+   {
+        circle(100+i,100,20);
+        line(100+i,120,100+i,200);
+        line(100+i,125,50+i,150);
+        line(100+i,125,150+i,150);
+        line(100+i,175,50+i,200);
+        line(100+i,175,150+i,200);
+        delay(70);
+        clearviewport();
+
+   }
+   getch();
+     closegraph();
+   return 0;
+}

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1523061636 source:g:\graphics programming in c\rainbow\main.cpp
+	<stdio.h>
+	<conio.h>
+	<graphics.h>
+

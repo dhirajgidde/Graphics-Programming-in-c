@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1523061810 source:g:\graphics programming in c\mangalyan\main.cpp
+	<conio.h>
+	<graphics.h>
+	<stdio.h>
+	<math.h>
+

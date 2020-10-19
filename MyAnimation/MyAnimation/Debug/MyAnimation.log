@@ -1,0 +1,760 @@
+﻿Build started 11-04-2018 11:18:36.
+     1>Project "C:\Users\systems\Desktop\MyAnimation\MyAnimation\MyAnimation.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\Users\systems\Downloads\freeglut\include /I"C:\Users\systems\Downloads\glew-1.11.0\include" /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt maincpp.cpp
+         maincpp.cpp
+     1>c:\users\systems\desktop\myanimation\myanimation\maincpp.cpp(9): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>c:\users\systems\desktop\myanimation\myanimation\maincpp.cpp(12): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>c:\users\systems\desktop\myanimation\myanimation\maincpp.cpp(15): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>c:\users\systems\desktop\myanimation\myanimation\maincpp.cpp(18): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>c:\users\systems\desktop\myanimation\myanimation\maincpp.cpp(25): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\systems\desktop\myanimation\myanimation\maincpp.cpp(26): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\systems\desktop\myanimation\myanimation\maincpp.cpp(28): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\systems\desktop\myanimation\myanimation\maincpp.cpp(28): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\systems\desktop\myanimation\myanimation\maincpp.cpp(29): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\systems\desktop\myanimation\myanimation\maincpp.cpp(32): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\systems\desktop\myanimation\myanimation\maincpp.cpp(33): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\systems\desktop\myanimation\myanimation\maincpp.cpp(35): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\systems\desktop\myanimation\myanimation\maincpp.cpp(36): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\systems\desktop\myanimation\myanimation\maincpp.cpp(36): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\systems\Desktop\MyAnimation\Debug\MyAnimation.exe" /VERBOSE /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\systems\Downloads\glew-1.11.0\lib" /LIBPATH:C:\Users\systems\Downloads\freeglut\lib freeglut.lib glew32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\systems\Desktop\MyAnimation\Debug\MyAnimation.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\systems\Desktop\MyAnimation\Debug\MyAnimation.lib" /MACHINE:X86 Debug\maincpp.obj
+         LINK : the PDB filename written in binary's CV record was 'C:\Users\systems\Downloads\MyAnimation\Debug\MyAnimation.pdb' and now will be 'C:\Users\systems\Desktop\MyAnimation\Debug\MyAnimation.pdb'; performing full link
+         
+         Starting pass 1
+         Processed /DEFAULTLIB:uuid.lib
+         Processed /DEFAULTLIB:freeglut.lib
+         Processed /DEFAULTLIB:glu32.lib
+         Processed /DEFAULTLIB:opengl32.lib
+         Processed /DEFAULTLIB:gdi32.lib
+         Processed /DEFAULTLIB:winmm.lib
+         Processed /DEFAULTLIB:user32.lib
+         Processed /DEFAULTLIB:msvcprtd
+         Processed /DEFAULTLIB:MSVCRTD
+         Processed /DEFAULTLIB:OLDNAMES
+         
+         Searching libraries
+             Searching C:\Users\systems\Downloads\freeglut\lib\freeglut.lib:
+               Found __imp__glutInitWindowPosition@8
+                 Referenced in maincpp.obj
+                 Loaded freeglut.lib(freeglut.dll)
+               Found __imp__glutInitWindowSize@8
+                 Referenced in maincpp.obj
+                 Loaded freeglut.lib(freeglut.dll)
+               Found __imp__glutInitDisplayMode@4
+                 Referenced in maincpp.obj
+                 Loaded freeglut.lib(freeglut.dll)
+               Found __imp__glutMainLoop@0
+                 Referenced in maincpp.obj
+                 Loaded freeglut.lib(freeglut.dll)
+               Found __imp__glutPostRedisplay@0
+                 Referenced in maincpp.obj
+                 Loaded freeglut.lib(freeglut.dll)
+               Found __imp__glutDisplayFunc@4
+                 Referenced in maincpp.obj
+                 Loaded freeglut.lib(freeglut.dll)
+               Found __imp____glutInitWithExit@12
+                 Referenced in maincpp.obj
+                 Loaded freeglut.lib(freeglut.dll)
+               Found __imp____glutCreateWindowWithExit@8
+                 Referenced in maincpp.obj
+                 Loaded freeglut.lib(freeglut.dll)
+               Found __IMPORT_DESCRIPTOR_freeglut
+                 Referenced in freeglut.lib(freeglut.dll)
+                 Referenced in freeglut.lib(freeglut.dll)
+                 Referenced in freeglut.lib(freeglut.dll)
+                 Referenced in freeglut.lib(freeglut.dll)
+                 Referenced in freeglut.lib(freeglut.dll)
+                 Referenced in freeglut.lib(freeglut.dll)
+                 Referenced in freeglut.lib(freeglut.dll)
+                 Referenced in freeglut.lib(freeglut.dll)
+                 Loaded freeglut.lib(freeglut.dll)
+               Found __NULL_IMPORT_DESCRIPTOR
+                 Referenced in freeglut.lib(freeglut.dll)
+                 Loaded freeglut.lib(freeglut.dll)
+               Found freeglut_NULL_THUNK_DATA
+                 Referenced in freeglut.lib(freeglut.dll)
+                 Loaded freeglut.lib(freeglut.dll)
+             Searching C:\Users\systems\Downloads\glew-1.11.0\lib\glew32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x86\kernel32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x86\user32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x86\gdi32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x86\winspool.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x86\comdlg32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x86\advapi32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x86\shell32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x86\ole32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x86\oleaut32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x86\uuid.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x86\odbc32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x86\odbccp32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x86\glu32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x86\opengl32.lib:
+               Found __imp__glBegin@4
+                 Referenced in maincpp.obj
+                 Loaded opengl32.lib(OPENGL32.dll)
+               Found __imp__glClear@4
+                 Referenced in maincpp.obj
+                 Loaded opengl32.lib(OPENGL32.dll)
+               Found __imp__glClearColor@16
+                 Referenced in maincpp.obj
+                 Loaded opengl32.lib(OPENGL32.dll)
+               Found __imp__glEnd@0
+                 Referenced in maincpp.obj
+                 Loaded opengl32.lib(OPENGL32.dll)
+               Found __imp__glFlush@0
+                 Referenced in maincpp.obj
+                 Loaded opengl32.lib(OPENGL32.dll)
+               Found __imp__glLoadIdentity@0
+                 Referenced in maincpp.obj
+                 Loaded opengl32.lib(OPENGL32.dll)
+               Found __imp__glMatrixMode@4
+                 Referenced in maincpp.obj
+                 Loaded opengl32.lib(OPENGL32.dll)
+               Found __imp__glOrtho@48
+                 Referenced in maincpp.obj
+                 Loaded opengl32.lib(OPENGL32.dll)
+               Found __imp__glVertex2d@16
+                 Referenced in maincpp.obj
+                 Loaded opengl32.lib(OPENGL32.dll)
+               Found __imp__glVertex3f@12
+                 Referenced in maincpp.obj
+                 Loaded opengl32.lib(OPENGL32.dll)
+               Found __IMPORT_DESCRIPTOR_OPENGL32
+                 Referenced in opengl32.lib(OPENGL32.dll)
+                 Referenced in opengl32.lib(OPENGL32.dll)
+                 Referenced in opengl32.lib(OPENGL32.dll)
+                 Referenced in opengl32.lib(OPENGL32.dll)
+                 Referenced in opengl32.lib(OPENGL32.dll)
+                 Referenced in opengl32.lib(OPENGL32.dll)
+                 Referenced in opengl32.lib(OPENGL32.dll)
+                 Referenced in opengl32.lib(OPENGL32.dll)
+                 Referenced in opengl32.lib(OPENGL32.dll)
+                 Referenced in opengl32.lib(OPENGL32.dll)
+                 Loaded opengl32.lib(OPENGL32.dll)
+               Found OPENGL32_NULL_THUNK_DATA
+                 Referenced in opengl32.lib(OPENGL32.dll)
+                 Loaded opengl32.lib(OPENGL32.dll)
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x86\winmm.lib:
+             Searching C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\lib\msvcprtd.lib:
+               Found "__declspec(dllimport) void __cdecl std::_Debug_message(wchar_t const *,wchar_t const *,unsigned int)" (__imp_?_Debug_message@std@@YAXPB_W0I@Z)
+                 Referenced in maincpp.obj
+                 Loaded msvcprtd.lib(MSVCP110D.dll)
+               Found "__declspec(dllimport) public: __thiscall std::_Container_base12::_Container_base12(void)" (__imp_??0_Container_base12@std@@QAE@XZ)
+                 Referenced in maincpp.obj
+                 Loaded msvcprtd.lib(MSVCP110D.dll)
+               Found "__declspec(dllimport) public: __thiscall std::_Container_base12::~_Container_base12(void)" (__imp_??1_Container_base12@std@@QAE@XZ)
+                 Referenced in maincpp.obj
+                 Loaded msvcprtd.lib(MSVCP110D.dll)
+               Found "__declspec(dllimport) public: void __thiscall std::_Container_base12::_Orphan_all(void)" (__imp_?_Orphan_all@_Container_base12@std@@QAEXXZ)
+                 Referenced in maincpp.obj
+                 Loaded msvcprtd.lib(MSVCP110D.dll)
+               Found "__declspec(dllimport) void __cdecl std::_Xbad_alloc(void)" (__imp_?_Xbad_alloc@std@@YAXXZ)
+                 Referenced in maincpp.obj
+                 Loaded msvcprtd.lib(MSVCP110D.dll)
+               Found "__declspec(dllimport) void __cdecl std::_Xlength_error(char const *)" (__imp_?_Xlength_error@std@@YAXPBD@Z)
+                 Referenced in maincpp.obj
+                 Loaded msvcprtd.lib(MSVCP110D.dll)
+               Found "__declspec(dllimport) void __cdecl std::_Xout_of_range(char const *)" (__imp_?_Xout_of_range@std@@YAXPBD@Z)
+                 Referenced in maincpp.obj
+                 Loaded msvcprtd.lib(MSVCP110D.dll)
+               Found "__declspec(dllimport) char const * __cdecl std::_Syserror_map(int)" (__imp_?_Syserror_map@std@@YAPBDH@Z)
+                 Referenced in maincpp.obj
+                 Loaded msvcprtd.lib(MSVCP110D.dll)
+               Found "__declspec(dllimport) char const * __cdecl std::_Winerror_map(int)" (__imp_?_Winerror_map@std@@YAPBDH@Z)
+                 Referenced in maincpp.obj
+                 Loaded msvcprtd.lib(MSVCP110D.dll)
+               Found __IMPORT_DESCRIPTOR_MSVCP110D
+                 Referenced in msvcprtd.lib(MSVCP110D.dll)
+                 Referenced in msvcprtd.lib(MSVCP110D.dll)
+                 Referenced in msvcprtd.lib(MSVCP110D.dll)
+                 Referenced in msvcprtd.lib(MSVCP110D.dll)
+                 Referenced in msvcprtd.lib(MSVCP110D.dll)
+                 Referenced in msvcprtd.lib(MSVCP110D.dll)
+                 Referenced in msvcprtd.lib(MSVCP110D.dll)
+                 Referenced in msvcprtd.lib(MSVCP110D.dll)
+                 Referenced in msvcprtd.lib(MSVCP110D.dll)
+                 Loaded msvcprtd.lib(MSVCP110D.dll)
+               Found MSVCP110D_NULL_THUNK_DATA
+                 Referenced in msvcprtd.lib(MSVCP110D.dll)
+                 Loaded msvcprtd.lib(MSVCP110D.dll)
+             Searching C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\lib\MSVCRTD.lib:
+               Found __purecall
+                 Referenced in maincpp.obj
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found "void * __cdecl operator new(unsigned int)" (??2@YAPAXI@Z)
+                 Referenced in maincpp.obj
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found "void __cdecl operator delete(void *)" (??3@YAXPAX@Z)
+                 Referenced in maincpp.obj
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found _atexit
+                 Referenced in maincpp.obj
+                 Loaded MSVCRTD.lib(atonexit.obj)
+               Found _memcpy
+                 Referenced in maincpp.obj
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found _strlen
+                 Referenced in maincpp.obj
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found __imp__memmove
+                 Referenced in maincpp.obj
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found __imp__exit
+                 Referenced in maincpp.obj
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found @_RTC_CheckStackVars@8
+                 Referenced in maincpp.obj
+                 Loaded MSVCRTD.lib(stack.obj)
+               Found @__security_check_cookie@4
+                 Referenced in maincpp.obj
+                 Loaded MSVCRTD.lib(secchk.obj)
+               Found __CxxThrowException@8
+                 Referenced in maincpp.obj
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found __RTC_InitBase
+                 Referenced in maincpp.obj
+                 Loaded MSVCRTD.lib(init.obj)
+               Found ___CxxFrameHandler3
+                 Referenced in maincpp.obj
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found "const type_info::`vftable'" (??_7type_info@@6B@)
+                 Referenced in maincpp.obj
+                 Loaded MSVCRTD.lib(ti_inst.obj)
+               Found ___security_cookie
+                 Referenced in maincpp.obj
+                 Referenced in MSVCRTD.lib(atonexit.obj)
+                 Referenced in MSVCRTD.lib(secchk.obj)
+                 Loaded MSVCRTD.lib(gs_cookie.obj)
+               Found __fltused
+                 Referenced in maincpp.obj
+                 Loaded MSVCRTD.lib(dllsupp.obj)
+               Found _mainCRTStartup
+                 Loaded MSVCRTD.lib(crtexe.obj)
+               Found __IMPORT_DESCRIPTOR_MSVCR110D
+                 Referenced in MSVCRTD.lib(MSVCR110D.dll)
+                 Referenced in MSVCRTD.lib(MSVCR110D.dll)
+                 Referenced in MSVCRTD.lib(MSVCR110D.dll)
+                 Referenced in MSVCRTD.lib(MSVCR110D.dll)
+                 Referenced in MSVCRTD.lib(MSVCR110D.dll)
+                 Referenced in MSVCRTD.lib(MSVCR110D.dll)
+                 Referenced in MSVCRTD.lib(MSVCR110D.dll)
+                 Referenced in MSVCRTD.lib(MSVCR110D.dll)
+                 Referenced in MSVCRTD.lib(MSVCR110D.dll)
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found __lock
+                 Referenced in MSVCRTD.lib(atonexit.obj)
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found __unlock
+                 Referenced in MSVCRTD.lib(atonexit.obj)
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found __imp___CrtDbgReportW
+                 Referenced in MSVCRTD.lib(atonexit.obj)
+                 Referenced in MSVCRTD.lib(crtexe.obj)
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found __imp___calloc_dbg
+                 Referenced in MSVCRTD.lib(atonexit.obj)
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found ___dllonexit
+                 Referenced in MSVCRTD.lib(atonexit.obj)
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found __except_handler4
+                 Referenced in MSVCRTD.lib(atonexit.obj)
+                 Referenced in MSVCRTD.lib(crtexe.obj)
+                 Loaded MSVCRTD.lib(chandler4gs.obj)
+               Found __imp___onexit
+                 Referenced in MSVCRTD.lib(atonexit.obj)
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found "void __cdecl _RTC_Failure(void *,int)" (?_RTC_Failure@@YAXPAXH@Z)
+                 Referenced in MSVCRTD.lib(stack.obj)
+                 Loaded MSVCRTD.lib(error.obj)
+               Found ___report_gsfailure
+                 Referenced in MSVCRTD.lib(secchk.obj)
+                 Loaded MSVCRTD.lib(gs_report.obj)
+               Found __RTC_SetErrorFuncW
+                 Referenced in MSVCRTD.lib(init.obj)
+                 Loaded MSVCRTD.lib(userapi.obj)
+               Found __CRT_RTC_INITW
+                 Referenced in MSVCRTD.lib(init.obj)
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found "void __stdcall `eh vector destructor iterator'(void *,unsigned int,int,void (__thiscall*)(void *))" (??_M@YGXPAXIHP6EX0@Z@Z)
+                 Referenced in MSVCRTD.lib(ti_inst.obj)
+                 Loaded MSVCRTD.lib(ehvecdtr.obj)
+               Found "public: virtual __thiscall type_info::~type_info(void)" (??1type_info@@UAE@XZ)
+                 Referenced in MSVCRTD.lib(ti_inst.obj)
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found ___CxxSetUnhandledExceptionFilter
+                 Referenced in MSVCRTD.lib(crtexe.obj)
+                 Loaded MSVCRTD.lib(unhandld.obj)
+               Found __XcptFilter
+                 Referenced in MSVCRTD.lib(crtexe.obj)
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found __amsg_exit
+                 Referenced in MSVCRTD.lib(crtexe.obj)
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found __setargv
+                 Referenced in MSVCRTD.lib(crtexe.obj)
+                 Loaded MSVCRTD.lib(dllargv.obj)
+               Found __imp____getmainargs
+                 Referenced in MSVCRTD.lib(crtexe.obj)
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found __imp____set_app_type
+                 Referenced in MSVCRTD.lib(crtexe.obj)
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found __imp___CrtSetCheckCount
+                 Referenced in MSVCRTD.lib(crtexe.obj)
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found __IsNonwritableInCurrentImage
+                 Referenced in MSVCRTD.lib(crtexe.obj)
+                 Loaded MSVCRTD.lib(pesect.obj)
+               Found __imp___exit
+                 Referenced in MSVCRTD.lib(crtexe.obj)
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found __imp___cexit
+                 Referenced in MSVCRTD.lib(crtexe.obj)
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found ___security_init_cookie
+                 Referenced in MSVCRTD.lib(crtexe.obj)
+                 Loaded MSVCRTD.lib(gs_support.obj)
+               Found __matherr
+                 Referenced in MSVCRTD.lib(crtexe.obj)
+                 Loaded MSVCRTD.lib(merr.obj)
+               Found __RTC_Initialize
+                 Referenced in MSVCRTD.lib(crtexe.obj)
+                 Loaded MSVCRTD.lib(initsect.obj)
+               Found __imp___configthreadlocale
+                 Referenced in MSVCRTD.lib(crtexe.obj)
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found __setdefaultprecision
+                 Referenced in MSVCRTD.lib(crtexe.obj)
+                 Loaded MSVCRTD.lib(fp8.obj)
+               Found __imp____setusermatherr
+                 Referenced in MSVCRTD.lib(crtexe.obj)
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found __initterm_e
+                 Referenced in MSVCRTD.lib(crtexe.obj)
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found __initterm
+                 Referenced in MSVCRTD.lib(crtexe.obj)
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found ___globallocalestatus
+                 Referenced in MSVCRTD.lib(crtexe.obj)
+                 Loaded MSVCRTD.lib(xthdloc.obj)
+               Found __commode
+                 Referenced in MSVCRTD.lib(crtexe.obj)
+                 Loaded MSVCRTD.lib(xncommod.obj)
+               Found __dowildcard
+                 Referenced in MSVCRTD.lib(crtexe.obj)
+                 Loaded MSVCRTD.lib(wildcard.obj)
+               Found __newmode
+                 Referenced in MSVCRTD.lib(crtexe.obj)
+                 Loaded MSVCRTD.lib(_newmode.obj)
+               Found __imp____initenv
+                 Referenced in MSVCRTD.lib(crtexe.obj)
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found ___native_startup_state
+                 Referenced in MSVCRTD.lib(crtexe.obj)
+                 Loaded MSVCRTD.lib(natstart.obj)
+               Found __fmode
+                 Referenced in MSVCRTD.lib(crtexe.obj)
+                 Loaded MSVCRTD.lib(xtxtmode.obj)
+               Found __imp___fmode
+                 Referenced in MSVCRTD.lib(crtexe.obj)
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found __imp___commode
+                 Referenced in MSVCRTD.lib(crtexe.obj)
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found ___xi_a
+                 Referenced in MSVCRTD.lib(crtexe.obj)
+                 Loaded MSVCRTD.lib(cinitexe.obj)
+         Processed /DEFAULTLIB:kernel32.lib
+          Processed /DISALLOWLIB:libcmt.lib
+          Processed /DISALLOWLIB:libcmtd.lib
+          Processed /DISALLOWLIB:msvcrt.lib
+               Found MSVCR110D_NULL_THUNK_DATA
+                 Referenced in MSVCRTD.lib(MSVCR110D.dll)
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found __except_handler4_common
+                 Referenced in MSVCRTD.lib(chandler4gs.obj)
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found "int __cdecl _RTC_GetSrcLine(unsigned char *,wchar_t *,unsigned long,int *,wchar_t *,unsigned long)" (?_RTC_GetSrcLine@@YAHPAEPA_WKPAH1K@Z)
+                 Referenced in MSVCRTD.lib(error.obj)
+                 Loaded MSVCRTD.lib(pdblkup.obj)
+               Found __crt_debugger_hook
+                 Referenced in MSVCRTD.lib(gs_report.obj)
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found ___crtUnhandledException
+                 Referenced in MSVCRTD.lib(gs_report.obj)
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found ___crtTerminateProcess
+                 Referenced in MSVCRTD.lib(gs_report.obj)
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found "void __cdecl terminate(void)" (?terminate@@YAXXZ)
+                 Referenced in MSVCRTD.lib(ehvecdtr.obj)
+                 Referenced in MSVCRTD.lib(unhandld.obj)
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found ___crtSetUnhandledExceptionFilter
+                 Referenced in MSVCRTD.lib(unhandld.obj)
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found __invoke_watson
+                 Referenced in MSVCRTD.lib(fp8.obj)
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found __controlfp_s
+                 Referenced in MSVCRTD.lib(fp8.obj)
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found _wcscpy_s
+                 Referenced in MSVCRTD.lib(pdblkup.obj)
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found __wmakepath_s
+                 Referenced in MSVCRTD.lib(pdblkup.obj)
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+               Found __wsplitpath_s
+                 Referenced in MSVCRTD.lib(pdblkup.obj)
+                 Loaded MSVCRTD.lib(MSVCR110D.dll)
+             Searching C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\lib\OLDNAMES.lib:
+             Searching C:\Users\systems\Downloads\freeglut\lib\freeglut.lib:
+             Searching C:\Users\systems\Downloads\glew-1.11.0\lib\glew32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x86\kernel32.lib:
+               Found __imp__EncodePointer@4
+                 Referenced in MSVCRTD.lib(atonexit.obj)
+                 Referenced in MSVCRTD.lib(crtexe.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__DecodePointer@4
+                 Referenced in MSVCRTD.lib(atonexit.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__IsDebuggerPresent@0
+                 Referenced in MSVCRTD.lib(error.obj)
+                 Referenced in MSVCRTD.lib(gs_report.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__RaiseException@16
+                 Referenced in MSVCRTD.lib(error.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__GetLastError@0
+                 Referenced in MSVCRTD.lib(error.obj)
+                 Referenced in MSVCRTD.lib(pdblkup.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__GetProcAddress@8
+                 Referenced in MSVCRTD.lib(error.obj)
+                 Referenced in MSVCRTD.lib(pdblkup.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__LoadLibraryExW@12
+                 Referenced in MSVCRTD.lib(error.obj)
+                 Referenced in MSVCRTD.lib(pdblkup.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__lstrlenA@4
+                 Referenced in MSVCRTD.lib(error.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__LoadLibraryW@4
+                 Referenced in MSVCRTD.lib(error.obj)
+                 Referenced in MSVCRTD.lib(pdblkup.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__MultiByteToWideChar@24
+                 Referenced in MSVCRTD.lib(error.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__WideCharToMultiByte@32
+                 Referenced in MSVCRTD.lib(error.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found _IsProcessorFeaturePresent@4
+                 Referenced in MSVCRTD.lib(gs_report.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__QueryPerformanceCounter@4
+                 Referenced in MSVCRTD.lib(gs_support.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__GetCurrentThreadId@0
+                 Referenced in MSVCRTD.lib(gs_support.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__GetSystemTimeAsFileTime@4
+                 Referenced in MSVCRTD.lib(gs_support.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__GetTickCount64@0
+                 Referenced in MSVCRTD.lib(gs_support.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__HeapAlloc@12
+                 Referenced in MSVCRTD.lib(pdblkup.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__HeapFree@12
+                 Referenced in MSVCRTD.lib(pdblkup.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__GetProcessHeap@0
+                 Referenced in MSVCRTD.lib(pdblkup.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__VirtualQuery@12
+                 Referenced in MSVCRTD.lib(pdblkup.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__FreeLibrary@4
+                 Referenced in MSVCRTD.lib(pdblkup.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__GetModuleFileNameW@12
+                 Referenced in MSVCRTD.lib(pdblkup.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__GetModuleHandleW@4
+                 Referenced in MSVCRTD.lib(pdblkup.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __IMPORT_DESCRIPTOR_KERNEL32
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found KERNEL32_NULL_THUNK_DATA
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Loaded kernel32.lib(KERNEL32.dll)
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x86\user32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x86\gdi32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x86\winspool.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x86\comdlg32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x86\advapi32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x86\shell32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x86\ole32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x86\oleaut32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x86\uuid.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x86\odbc32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x86\odbccp32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x86\glu32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x86\opengl32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x86\winmm.lib:
+             Searching C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\lib\msvcprtd.lib:
+             Searching C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\lib\MSVCRTD.lib:
+             Searching C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\lib\OLDNAMES.lib:
+             Searching C:\Users\systems\Downloads\freeglut\lib\freeglut.lib:
+             Searching C:\Users\systems\Downloads\glew-1.11.0\lib\glew32.lib:
+         
+         Finished searching libraries
+         
+         Finished pass 1
+         
+         Generating non-SAFESEH image.
+         
+         Searching libraries
+             Searching C:\Users\systems\Downloads\freeglut\lib\freeglut.lib:
+             Searching C:\Users\systems\Downloads\glew-1.11.0\lib\glew32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x86\kernel32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x86\user32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x86\gdi32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x86\winspool.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x86\comdlg32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x86\advapi32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x86\shell32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x86\ole32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x86\oleaut32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x86\uuid.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x86\odbc32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x86\odbccp32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x86\glu32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x86\opengl32.lib:
+             Searching C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x86\winmm.lib:
+             Searching C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\lib\msvcprtd.lib:
+             Searching C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\lib\MSVCRTD.lib:
+               Found __load_config_used
+                 Loaded MSVCRTD.lib(loadcfg.obj)
+             Searching C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\lib\OLDNAMES.lib:
+         
+         Finished searching libraries
+         
+         Invoking rc.exe:
+          /v
+          /x
+          /fo
+          "C:\Users\systems\AppData\Local\Temp\lnk{B2B47B45-02EB-4137-A6EF-D0C5E55658C1}.tmp"
+          "C:\Users\systems\AppData\Local\Temp\lnk{E1B6B4F8-9A3A-4D15-8C14-A569635385F4}.tmp"
+         Microsoft (R) Windows (R) Resource Compiler Version 6.2.9200.16384
+         
+         Copyright (C) Microsoft Corporation.  All rights reserved.
+         
+         
+         Creating C:\Users\systems\AppData\Local\Temp\lnk{B2B47B45-02EB-4137-A6EF-D0C5E55658C1}.tmp
+         
+         Using codepage 1252 as default
+         
+         C:\Users\systems\AppData\Local\Temp\lnk{E1B6B4F8-9A3A-4D15-8C14-A569635385F4}.tmp.
+         Writing 24:1,	lang:0x409,	size 381
+         
+         Invoking cvtres.exe:
+          /machine:x86
+          /verbose
+          /out:"C:\Users\systems\AppData\Local\Temp\lnk{F361C5B0-1468-4EBC-BFD6-98D4E809E40A}.tmp"
+          /readonly
+          "C:\Users\systems\AppData\Local\Temp\lnk{B2B47B45-02EB-4137-A6EF-D0C5E55658C1}.tmp"
+         Microsoft (R) Windows Resource To Object Converter Version 11.00.50727.1
+         Copyright (C) Microsoft Corporation.  All rights reserved.
+         
+         adding resource. type:MANIFEST, name:1, language:0x0409, flags:0x30, size:381
+         
+         Unused libraries:
+           C:\Users\systems\Downloads\glew-1.11.0\lib\glew32.lib
+           C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x86\user32.lib
+           C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x86\gdi32.lib
+           C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x86\winspool.lib
+           C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x86\comdlg32.lib
+           C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x86\advapi32.lib
+           C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x86\shell32.lib
+           C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x86\ole32.lib
+           C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x86\oleaut32.lib
+           C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x86\uuid.lib
+           C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x86\odbc32.lib
+           C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x86\odbccp32.lib
+           C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x86\glu32.lib
+           C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x86\winmm.lib
+           C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\lib\OLDNAMES.lib
+         
+         Starting pass 2
+              * linker generated manifest res *
+              maincpp.obj
+              freeglut.lib(freeglut.dll)
+              freeglut.lib(freeglut.dll)
+              freeglut.lib(freeglut.dll)
+              freeglut.lib(freeglut.dll)
+              freeglut.lib(freeglut.dll)
+              freeglut.lib(freeglut.dll)
+              freeglut.lib(freeglut.dll)
+              freeglut.lib(freeglut.dll)
+              freeglut.lib(freeglut.dll)
+              freeglut.lib(freeglut.dll)
+              freeglut.lib(freeglut.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              opengl32.lib(OPENGL32.dll)
+              opengl32.lib(OPENGL32.dll)
+              opengl32.lib(OPENGL32.dll)
+              opengl32.lib(OPENGL32.dll)
+              opengl32.lib(OPENGL32.dll)
+              opengl32.lib(OPENGL32.dll)
+              opengl32.lib(OPENGL32.dll)
+              opengl32.lib(OPENGL32.dll)
+              opengl32.lib(OPENGL32.dll)
+              opengl32.lib(OPENGL32.dll)
+              opengl32.lib(OPENGL32.dll)
+              opengl32.lib(OPENGL32.dll)
+              msvcprtd.lib(MSVCP110D.dll)
+              msvcprtd.lib(MSVCP110D.dll)
+              msvcprtd.lib(MSVCP110D.dll)
+              msvcprtd.lib(MSVCP110D.dll)
+              msvcprtd.lib(MSVCP110D.dll)
+              msvcprtd.lib(MSVCP110D.dll)
+              msvcprtd.lib(MSVCP110D.dll)
+              msvcprtd.lib(MSVCP110D.dll)
+              msvcprtd.lib(MSVCP110D.dll)
+              msvcprtd.lib(MSVCP110D.dll)
+              msvcprtd.lib(MSVCP110D.dll)
+              MSVCRTD.lib(ehvecdtr.obj)
+              MSVCRTD.lib(unhandld.obj)
+              MSVCRTD.lib(atonexit.obj)
+              MSVCRTD.lib(cinitexe.obj)
+              MSVCRTD.lib(crtexe.obj)
+              MSVCRTD.lib(dllargv.obj)
+              MSVCRTD.lib(gs_cookie.obj)
+              MSVCRTD.lib(gs_report.obj)
+              MSVCRTD.lib(gs_support.obj)
+              MSVCRTD.lib(merr.obj)
+              MSVCRTD.lib(natstart.obj)
+              MSVCRTD.lib(pesect.obj)
+              MSVCRTD.lib(ti_inst.obj)
+              MSVCRTD.lib(wildcard.obj)
+              MSVCRTD.lib(dllsupp.obj)
+              MSVCRTD.lib(chandler4gs.obj)
+              MSVCRTD.lib(fp8.obj)
+              MSVCRTD.lib(loadcfg.obj)
+              MSVCRTD.lib(secchk.obj)
+              MSVCRTD.lib(_newmode.obj)
+              MSVCRTD.lib(xncommod.obj)
+              MSVCRTD.lib(xtxtmode.obj)
+              MSVCRTD.lib(xthdloc.obj)
+              MSVCRTD.lib(userapi.obj)
+              MSVCRTD.lib(stack.obj)
+              MSVCRTD.lib(pdblkup.obj)
+              MSVCRTD.lib(initsect.obj)
+              MSVCRTD.lib(init.obj)
+              MSVCRTD.lib(error.obj)
+              MSVCRTD.lib(MSVCR110D.dll)
+              MSVCRTD.lib(MSVCR110D.dll)
+              MSVCRTD.lib(MSVCR110D.dll)
+              MSVCRTD.lib(MSVCR110D.dll)
+              MSVCRTD.lib(MSVCR110D.dll)
+              MSVCRTD.lib(MSVCR110D.dll)
+              MSVCRTD.lib(MSVCR110D.dll)
+              MSVCRTD.lib(MSVCR110D.dll)
+              MSVCRTD.lib(MSVCR110D.dll)
+              MSVCRTD.lib(MSVCR110D.dll)
+              MSVCRTD.lib(MSVCR110D.dll)
+              MSVCRTD.lib(MSVCR110D.dll)
+              MSVCRTD.lib(MSVCR110D.dll)
+              MSVCRTD.lib(MSVCR110D.dll)
+              MSVCRTD.lib(MSVCR110D.dll)
+              MSVCRTD.lib(MSVCR110D.dll)
+              MSVCRTD.lib(MSVCR110D.dll)
+              MSVCRTD.lib(MSVCR110D.dll)
+              MSVCRTD.lib(MSVCR110D.dll)
+              MSVCRTD.lib(MSVCR110D.dll)
+              MSVCRTD.lib(MSVCR110D.dll)
+              MSVCRTD.lib(MSVCR110D.dll)
+              MSVCRTD.lib(MSVCR110D.dll)
+              MSVCRTD.lib(MSVCR110D.dll)
+              MSVCRTD.lib(MSVCR110D.dll)
+              MSVCRTD.lib(MSVCR110D.dll)
+              MSVCRTD.lib(MSVCR110D.dll)
+              MSVCRTD.lib(MSVCR110D.dll)
+              MSVCRTD.lib(MSVCR110D.dll)
+              MSVCRTD.lib(MSVCR110D.dll)
+              MSVCRTD.lib(MSVCR110D.dll)
+              MSVCRTD.lib(MSVCR110D.dll)
+              MSVCRTD.lib(MSVCR110D.dll)
+              MSVCRTD.lib(MSVCR110D.dll)
+              MSVCRTD.lib(MSVCR110D.dll)
+              MSVCRTD.lib(MSVCR110D.dll)
+              MSVCRTD.lib(MSVCR110D.dll)
+              MSVCRTD.lib(MSVCR110D.dll)
+              MSVCRTD.lib(MSVCR110D.dll)
+              MSVCRTD.lib(MSVCR110D.dll)
+              MSVCRTD.lib(MSVCR110D.dll)
+              MSVCRTD.lib(MSVCR110D.dll)
+              MSVCRTD.lib(MSVCR110D.dll)
+              MSVCRTD.lib(MSVCR110D.dll)
+         Finished pass 2
+         MyAnimation.vcxproj -> C:\Users\systems\Desktop\MyAnimation\Debug\MyAnimation.exe
+     1>Done Building Project "C:\Users\systems\Desktop\MyAnimation\MyAnimation\MyAnimation.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.51

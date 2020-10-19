@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1522771925 source:g:\graphics programming in c\car\main.cpp
+	<graphics.h>
+	<conio.h>
+	<dos.h>
+	<stdlib.h>
+	<process.h>
+

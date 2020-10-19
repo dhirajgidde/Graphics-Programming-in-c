@@ -1,0 +1,36 @@
+#include<stdio.h>
+#include<graphics.h>
+#include<conio.h>
+
+int main(){
+   int gd = DETECT,gm;
+   int x ,y ,radius=80;
+   initgraph(&gd, &gm, "C:\\TC\\BGI");
+   /* Initialize center of circle with center of screen */
+   x = getmaxx()/2;
+   y = getmaxy()/2;
+
+   outtextxy(x-100, 50, "The moving car by Dhiraj");
+   /* Draw circle on screen */
+
+   int i;
+   for(i=0;i<=800;i=i+10)
+   {
+        rectangle(100+i,50,250+i,300);
+        rectangle(250+i,200,400+i,300);
+        circle(350+i,300,40);
+        circle(150+i,300,40);
+      delay(100);
+       if(i==800)
+        {
+
+            break;
+        }
+        clearviewport();
+   }
+
+
+
+   getch();
+   closegraph();
+}

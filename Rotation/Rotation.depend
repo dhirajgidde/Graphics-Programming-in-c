@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1522771542 source:g:\graphics programming in c\rotation\main.cpp
+	<iostream>
+	<stdio.h>
+	<graphics.h>
+	<conio.h>
+

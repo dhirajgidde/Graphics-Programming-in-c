@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1514567398 source:g:\graphics programming in c\3dtransoformation\main.cpp
+	<iostream>
+	<stdio.h>
+	<graphics.h>
+	<conio.h>
+

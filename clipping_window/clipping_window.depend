@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1519148411 source:g:\graphics programming in c\clipping_window\main.cpp
+	<iostream>
+	<graphics.h>
+	<stdio.h>
+	<conio.h>
+	<bits/stdc++.h>
+
